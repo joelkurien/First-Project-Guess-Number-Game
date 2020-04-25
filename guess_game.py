@@ -18,6 +18,10 @@ def guess_number():
 			tries = 1
 			break
 		else:
+			if y>guess:
+				print("HOT")
+			elif y<guess:
+				print("COLD")
 			print("Try Again")
 	if tries == 1:
 		print("You Won!!")
