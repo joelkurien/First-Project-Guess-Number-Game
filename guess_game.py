@@ -30,5 +30,6 @@ def guess_number():
 		print("Better Luck Next Time =(")
 
 if __name__ == "__main__":
+	print("Enter the guessed value")
 	guess_number()
 
